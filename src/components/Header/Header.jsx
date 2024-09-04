@@ -11,6 +11,7 @@ export default function Header(props){
             props.setRows(res)
         })
     }
+
     return (
         <Card sx={{width:"100%",height:60,display:"flex",alignItems:"center",padding:1,justifyContent:"space-between",mb:2}}>
             <Typography sx={{ml:2,fontSize:24}}>Таблица студентов</Typography>
