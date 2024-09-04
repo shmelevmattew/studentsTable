@@ -1,10 +1,8 @@
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import InputAdornment from '@mui/material/InputAdornment';
 import TextField from '@mui/material/TextField';
 import Card from '@mui/material/Card';
-import SearchIcon from '@mui/icons-material/Search';
-import AccountCircle from '@mui/icons-material/AccountCircle';
-import { getTableData, getTableDataByName } from "../../api/service/tableService";
+import { getTableDataByName } from "../../api/service/tableService";
 
 export default function Header(props){
 

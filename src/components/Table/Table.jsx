@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { DataGrid, GridColDef } from '@mui/x-data-grid';
+import { DataGrid } from '@mui/x-data-grid';
 import Paper from '@mui/material/Paper';
 
 export default function BasicTable(props) {
@@ -23,7 +23,7 @@ export default function BasicTable(props) {
           width: 200,
         },
       ];
-      
+
 
     const {rows} = props
     console.log(rows)
