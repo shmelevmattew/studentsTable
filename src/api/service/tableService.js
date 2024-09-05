@@ -10,3 +10,8 @@ export async function getTableDataByName(name){
     console.log(data,error)
     return data
 }
+export async function addStudent(student){
+    const { data, error } = await supabase.from('students').insert(student)
+    console.log(data,error)
+    return data
+}
