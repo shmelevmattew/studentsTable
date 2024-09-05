@@ -46,7 +46,7 @@ export default function BasicTable(props) {
       sessionDone : false
     }
     
-    const [open,setOpen] = useState(true)
+    const [open,setOpen] = useState(false)
 
 
     const [selectedStudent,setSelectedStudent] = useState(initialUser)
